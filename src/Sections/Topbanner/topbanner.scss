@@ -1,0 +1,53 @@
+.topsliderbody{
+    
+        padding: 2%;
+        font-family: "Work Sans", SemiBold 400;
+        font-weight: 400;
+       
+        background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+
+        height: 471px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 35%;
+    font-size: small;
+}
+#slidericon{
+    height: 20%;
+}
+
+#bannermidletext h5{
+    font-weight:  700 ;
+    font-size: 200%;
+}
+#bannermidletext p{
+    font-weight:  200 ;
+    font-size: 120%;
+    letter-spacing: 5px;
+}
+
+
+.sliderrighttext{
+    transform: rotate(270deg);
+    letter-spacing: 5px;
+    margin-top: 86px;
+    font-weight: 200;
+    width: 350px;
+}
+
+
+
+
+@media only screen and (max-width:768px ) {
+    .links{
+        flex-direction: row;  
+    }
+    .sliderrighttext{
+      display: none;
+    }
+}
+
