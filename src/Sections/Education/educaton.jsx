@@ -6,7 +6,8 @@ import "./educaton.scss"
 import uog from "../../images/icons/University_of_Gujrat_Logo.png"
 import pgc from "../../images/icons/pgc.png"
 import HMSS from "../../images/icons/HMSS.png"
-import educationvactor from "../../images/icons/educationvactor.png"
+import Educationvactor from "../../images/icons/Educationvactor.gif"
+
 
 function Educaton() {
   return (
@@ -57,7 +58,7 @@ function Educaton() {
 
         </div>
         <div className="rightsideeducation col-md-3">
-             <img style={{height:"225px"}} src={educationvactor} alt="" />
+             <img style={{height:"250px"}} src={Educationvactor} alt="" />
             <h3>Education</h3>
             <p>Education is what defines your spirit and spirit</p>
         </div>

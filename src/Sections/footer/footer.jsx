@@ -47,7 +47,7 @@ function Footer() {
 
             <p className='bio mt-4 ' > With a web developer shortage and <br /> job growth is at 27% per year, <br /> do you need a web developer?  </p>
 
-            <div className="">
+            <div className="my-2">
 
                 <span className='contacticon  shadow  ' id='footersocialicons1'  > <FaFacebookF/> </span>
                 <span className='contacticon   shadow mx-4' id='footersocialicons2' > <FaInstagram/> </span>
@@ -61,8 +61,8 @@ function Footer() {
             <h6>Site map</h6>
             <ul class="footer-links">
               <li><a href="http://scanfcode.com/category/c-language/">Home</a></li>
-              <li><a href="http://scanfcode.com/category/front-end-development/">Projects</a></li>
-              <li><a href="http://scanfcode.com/category/back-end-development/">Skills</a></li>
+              <li className='my-2' ><a href="http://scanfcode.com/category/front-end-development/">Projects</a></li>
+              <li  className='my-2' ><a href="http://scanfcode.com/category/back-end-development/">Skills</a></li>
               <li><a href="http://scanfcode.com/category/java-programming-language/">Contact</a></li>
             </ul>
           </div>
@@ -71,7 +71,7 @@ function Footer() {
             <h6>Contact me</h6>
            
             <span><span className='mx-2' > <FiPhoneCall/> </span>  (+92) 309 5199778 </span> <br />
-           <span><span className='mx-2' >  <AiOutlineMail/>   </span>  taharasheed020@gmail </span> <br />
+           <span><span className='mx-2 my-3' >  <AiOutlineMail/>   </span>  taharasheed020@gmail </span> <br />
            <span>  <span className='mx-2' > <FaRegAddressCard/> </span>  lda avenue 1, Lahore Pakistan </span>
 
           </div>

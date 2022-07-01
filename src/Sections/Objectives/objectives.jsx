@@ -2,24 +2,27 @@ import React from 'react'
 import "./objectives.scss"
 
 //icons import
-import slidericon from "../../images/icons/output-onlinegiftools.gif"
+import fastwork from "../../images/icons/fastworkgif.gif"
+import professioancodegid from "../../images/icons/professioancodegid.gif"
+import creativity from "../../images/icons/creativity.gif"
+
 
 
 function Objectives() {
 
     let objectives=[
         {
-        icon:slidericon,
+        icon:fastwork,
         heading:"Fast Learning",
         text:"Learning the curves of work to provide the best output "
         },
         {
-            icon:slidericon,
+            icon:professioancodegid,
             heading:"Professional Coding",
             text:"Professionaly customizeable code , for easy customization and understanding "
         },
         {
-                icon:slidericon,
+                icon:creativity,
                 heading:"Creativity",
                 text:"Thinking out of the box is always a key to provide the imaginary results"
         }

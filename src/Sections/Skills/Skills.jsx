@@ -1,9 +1,8 @@
 import React from 'react'
 import "./Skills.scss"
 import Progress from '../../Components/Progressbar/progress'
-import skillsimage from "../../images/icons/19362653-ai.png"
 
-//Skills icon
+// Skills icon
 
 import CSSlogo from "../../images/icons/CSSlogo.png"
 import MongoDB from "../../images/icons/mongodb.png"
@@ -14,7 +13,9 @@ import NodeJS from "../../images/icons/NodeJS.png"
 import Reactlogo from "../../images/icons/React.png"
 import HTMLlogo from "../../images/icons/HTMLlogo.png"
 
-//
+// Importing Illustration
+
+import skillsillustration from "../../images/icons/skillsillustration.gif"
 
 function Skills() {
   return (
@@ -23,7 +24,7 @@ function Skills() {
         <div className="row">
             <div className="col-md-5">
 
-            <img src={skillsimage} style={{height: "400px"}} alt="" />
+            <img src={skillsillustration} style={{height: "450px"}} alt="" />
 
 
             </div>

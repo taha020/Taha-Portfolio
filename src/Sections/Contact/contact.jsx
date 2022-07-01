@@ -7,6 +7,11 @@ import { FaFacebookF } from "@react-icons/all-files/fa/FaFacebookF";
 import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram";
 import { FaLinkedinIn } from "@react-icons/all-files/fa/FaLinkedinIn";
 
+
+import { FiPhoneCall } from "@react-icons/all-files/fi/FiPhoneCall";
+import { AiOutlineMail } from "@react-icons/all-files/ai/AiOutlineMail";
+import { FaRegAddressCard } from "@react-icons/all-files/fa/FaRegAddressCard";
+
 import mypic from "../../images/icons/mypic.png"
 
 function Contact() {
@@ -70,9 +75,9 @@ function Contact() {
 
         <div className="contact ">
             
-        <span className='contactlefticon   '> <FaFacebookF/> </span> <p className='mx-4' > (+92) 309 5199778 </p> <br /> <br />
-        <span className='contactlefticon my-5  '> <FaInstagram/> </span> <p className='mx-4' >taharasheed020@gmail.com</p> <br /> <br />
-        <span className='contactlefticon  '> <FaLinkedinIn/>   </span> <p className='mx-4' >Lda Avenue-1 , Lahore Pakistan </p> <br />
+        <span className='contactlefticon   '> <FiPhoneCall/> </span> <p className='mx-4' > (+92) 309 5199778 </p> <br /> <br />
+        <span className='contactlefticon my-5  '> <AiOutlineMail/> </span> <p className='mx-4' >taharasheed020@gmail.com</p> <br /> <br />
+        <span className='contactlefticon  '> <FaRegAddressCard/>   </span> <p className='mx-4' >Lda Avenue-1 , Lahore Pakistan </p> <br />
 
         </div>
 

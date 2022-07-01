@@ -3,7 +3,7 @@ import "./topbanner.scss"
 import 'animate.css';
 
 //Images import
-import slidericon from "../../images/icons/output-onlinegiftools.gif"
+import slidericon from "../../images/icons/bannerrocket.gif"
 
 
 
@@ -22,9 +22,12 @@ function Topbanner() {
         <div className="row">
           <div className="col-md-2">
             <div className="links mt-lg-5">
-             <FaFacebookF/>
-             <FaInstagram/>
-             <FaLinkedinIn/>
+              <div className="bannerlink">  <FaFacebookF/></div>
+              <div className="bannerlink my-4">   <FaInstagram/></div>
+              <div className="bannerlink">  <FaLinkedinIn/></div>
+           
+            
+             
             </div>
           </div>
           <div className="col-md-8 text-center " id='bannermidletext'>
