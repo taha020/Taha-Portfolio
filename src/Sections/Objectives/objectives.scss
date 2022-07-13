@@ -44,13 +44,18 @@ backdrop-filter: blur(6.2px);
 background-image:linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #efd7ec 100%);
 
     height: 382px;
-    width: 381px;
+    width: 296px;
     border-radius: 21px;
     position: relative;
     bottom: 83px;
 }
 
-
+.myimage{
+    margin-bottom: 178px;
+    height: 601px;
+    position: relative;
+    bottom: 219px;
+}
 
 
 //Media query
@@ -84,3 +89,35 @@ background-image:linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #efd7ec 100%);
 
 
 }
+
+
+@media only screen and (max-width: 600px) {
+   .objectivepicture {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #efd7ec 100%);
+    height: 285px;
+    width: 289px;
+    border-radius: 21px;
+    position: relative;
+    bottom: 83px;
+}
+
+.myimage {
+    margin-bottom: 178px;
+    height: 498px;
+    position: relative;
+    bottom: 214px;
+}
+
+
+.objectivepicture {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #efd7ec 100%);
+    height: 285px;
+    width: 244px;
+    border-radius: 21px;
+    position: relative;
+    bottom: 83px;
+}
+
+  }

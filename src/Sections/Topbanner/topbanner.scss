@@ -103,3 +103,30 @@
     }
 }
 
+@media only screen and (max-width: 600px) {
+
+.bannerlink {
+    cursor: pointer;
+    color: black;
+    width: 18.5%;
+    height: 38px;
+    padding: 0%;
+    padding-left: 6.5%;
+    padding-top: 2.6%;
+    padding-left: -0.5%;
+    border-radius: 58px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+    transition-duration: 0.5s;
+}
+
+.links {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+}
+

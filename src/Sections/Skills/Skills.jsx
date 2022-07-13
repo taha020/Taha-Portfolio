@@ -19,7 +19,7 @@ import skillsillustration from "../../images/icons/skillsillustration.gif"
 
 function Skills() {
   return (
-    <div className='Skillbackground shadow ' >
+    <div className='Skillbackground shadow ' id="Skillbackground" >
 
         <div className="row">
             <div className="col-lg-5">
@@ -34,14 +34,14 @@ function Skills() {
                 <p>Creativity with great logic building brings revolutionary results</p>
 
                 <div className="skills">
-                    <div className="row">
-                        <div className="col-5">
+                    <div className="row ">
+                        <div className="col-md-5">
                         <Progress heading="React JS" image={Reactlogo} progressid="Reactprogress" percentage="55%" />
                         <Progress heading="Node JS" image={NodeJS} progressid="Nodeprogress" percentage="35%" />
                         <Progress heading="Mongo DB" image={MongoDB} progressid="Mongoprogress" percentage="50%" />
                         <Progress heading="SQL" image={sql} progressid="SQLprogress" percentage="45%" />
                         </div>
-                        <div className="col-5 offset-1">
+                        <div className="col-md-5 offset-md-1">
 
                         <Progress heading="HTML" image={HTMLlogo} progressid="htmlprogress" percentage="80%" />
                         <Progress heading="CSS" image={CSSlogo} progressid="cssprogress" percentage="60%" />

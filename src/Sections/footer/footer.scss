@@ -53,6 +53,7 @@ background: linear-gradient(to right, rgba(209,0,116,1) 10%, rgba(110,44,107,1) 
     color: white !important;
     text-decoration: none;
     transition-duration: 0.5s;
+    cursor: pointer;
 }
 
 .footergithublink:hover{
@@ -149,6 +150,9 @@ background: linear-gradient(to right, rgba(209,0,116,1) 10%, rgba(110,44,107,1) 
     margin-bottom:30px
   }
 }
+
+
+
 @media (max-width:767px)
 {
   .site-footer
@@ -222,6 +226,11 @@ background: linear-gradient(to right, rgba(209,0,116,1) 10%, rgba(110,44,107,1) 
 {
   background-color:#ea4c89
 }
+
+
+
+
+
 @media (max-width:767px)
 {
   .social-icons li.title
@@ -230,4 +239,20 @@ background: linear-gradient(to right, rgba(209,0,116,1) 10%, rgba(110,44,107,1) 
     margin-right:0;
     font-weight:600
   }
+}
+
+
+
+@media (max-width:660px)
+{
+
+  #footersections{
+    padding-right: 5%;
+    text-align: center;
+  }
+  .footergitlink{
+   margin-left: 26%;
+   margin-bottom: 4%;
+  }
+
 }

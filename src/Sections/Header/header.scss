@@ -43,3 +43,104 @@
 .myname{
     color: rgb(209, 0, 116); 
 }
+
+
+#collapsingmenueicon{
+
+    background: transparent !important;
+    border: 1px solid rgb(209, 0, 116) !important;
+    color: rgb(209, 0, 116) !important;
+    transition-duration: 0.5s;
+
+}
+
+#collapsingmenueicon:hover,#collapsingmenueicon:active{
+   
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px !important;
+  
+
+}
+
+#slidingmenue{
+
+background: rgba(0, 0, 0, 0.65) !important;
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1)!important;
+backdrop-filter: blur(12.1px) !important;
+-webkit-backdrop-filter: blur(12.1px) !important;
+    height: 150px !important;
+    z-index: 90 !important;
+    padding-bottom: 284px !important;
+    overflow: hidden !important;
+    color: white !important;
+}
+
+.offcanvas-header{
+    background-color: rgb(55, 55, 55);
+    color: white;
+}
+
+.menue a{
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.3s;
+}
+
+.menue a:hover{
+    text-decoration: none;
+    color: rgb(209, 0, 116);
+}
+
+
+
+.offcanvasmenue{
+    list-style: none;
+
+}
+
+.offcanvasmenue li{
+  
+    margin-top: 8px !important;
+
+}
+.offcanvasmenue a{
+    margin-top: 10px !important;
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.5s;
+}
+.offcanvasmenue a:hover{
+    text-decoration: none;
+    color:  rgb(209, 0, 116);
+}
+
+.collapsingmenuebutton{
+    border: none;
+    border-radius: 6px;
+    /* background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%); */
+    background-color: rgb(209, 0, 116);
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+   
+
+    .menuebar{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+    .collapsingmenue{
+        display: block !important;
+    }
+    .navbarsimple {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 55px;
+        position: sticky;
+        background-color: transparent;
+        padding-top: 2%;
+    }
+  }

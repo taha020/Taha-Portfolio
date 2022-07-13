@@ -1,5 +1,6 @@
 import React from 'react'
 import "./objectives.scss"
+import myimg from "../../../src/images/icons/portfolio_image.png"
 
 //icons import
 import fastwork from "../../images/icons/fastworkgif.gif"
@@ -33,7 +34,7 @@ function Objectives() {
             
             {/* My picture GIF */}
             <div className="objectivepicture shadow mx-auto mb-5">
-
+            <img className='myimage' src={myimg} alt="Taha" />
             </div>
 
             {/* Text */}

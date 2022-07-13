@@ -11,7 +11,7 @@ import Educationvactor from "../../images/icons/Educationvactor.gif"
 
 function Educaton() {
   return (
-    <div className='Educationarea' >
+    <div className='Educationarea' id='Educationarea' >
 
     <div className="row">
         <div className="leftsideeducation col-lg-8">
@@ -60,7 +60,7 @@ function Educaton() {
         <div className="rightsideeducation col-lg-3">
              <img style={{height:"250px"}} src={Educationvactor} alt="" />
             <h3>Education</h3>
-            <p>Education is what defines your spirit and spirit</p>
+            <p>Education is what defines your spirit</p>
         </div>
     </div>
 

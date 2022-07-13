@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "./topbanner.scss"
 import 'animate.css';
+import { Link } from 'react-router-dom';
 
 //Images import
 import slidericon from "../../images/icons/bannerrocket.gif"
@@ -18,13 +19,13 @@ function Topbanner() {
 
   return (
     <div>
-       <div className="topsliderbody ">
+       <div className="topsliderbody " id='topsliderbody'>
         <div className="row">
           <div className="col-lg-2">
             <div className="links mt-lg-5 mt-5 mb-lg-0 mb-5">
-              <div className="bannerlink">  <FaFacebookF/></div>
-              <div className="bannerlink my-lg-4 my-0">   <FaInstagram/></div>
-              <div className="bannerlink">  <FaLinkedinIn/></div>
+              <div onClick={()=>{ window.location.replace("https://www.facebook.com/taha.rasheed.125760/"); }} className="bannerlink">   <FaFacebookF/></div>
+              <div onClick={()=>{window.location.replace("https://www.instagram.com/taharasheed2273/");}} className="bannerlink my-lg-4 my-0">   <FaInstagram/></div>
+              <div onClick={()=>{ window.location.replace("https://www.linkedin.com/in/taha-rasheed-990a14241/"); }} className="bannerlink">  <FaLinkedinIn/></div>
            
             
              

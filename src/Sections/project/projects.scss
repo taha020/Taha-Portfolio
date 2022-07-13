@@ -9,6 +9,7 @@
     
     height: 350px;
     width: 350px;
+    overflow: hidden;
 }
 
 .projectright{
@@ -19,6 +20,11 @@
     height: 477px;
 }
 
+.illsimg{
+    height: 382px;
+    position: relative;
+    right: 14px;
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -32,3 +38,26 @@
     
 
 }
+
+@media only screen and (max-width: 600px) {
+  
+
+    .imagebody {
+        border-radius: 15px;
+        background-color: #FF3CAC;
+        background-image: linear-gradient(225deg, #FF3CAC 5%, #784BA0 50%, #0e68a8 100%);
+        height: 273px;
+        width: 264px;
+    }
+
+    .projectsection {
+        height: 580px;
+    }
+
+    .illsimg {
+        height: 296px;
+        position: relative;
+        right: 14px;
+    }
+
+  }

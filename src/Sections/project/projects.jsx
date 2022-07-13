@@ -2,10 +2,7 @@ import React, { useState,useEffect } from 'react'
 import "./projects.scss"
 import Solidbuttondark from '../../Components/Buttons/solidbuttondark'
 import Iconbuttondark from '../../Components/Buttons/iconbuttondark';
-
-
-
-import { FaRegArrowAltCircleRight } from "@react-icons/all-files/fa/FaRegArrowAltCircleRight";
+import ills from "../../../src/images/icons/Gitimage.png";
 
 
 function Projects() {
@@ -46,20 +43,21 @@ function Projects() {
   }
     
   return (
-    <div className='projectsection' > 
+    <div className='projectsection' id='projectsection' > 
 
         <div className="row">
           
             <div className="col-lg-4  ml-lg-5 offset-lg-2">
                 <div className="imagebody mx-lg-0 mx-auto shadow ">
-            </div>
+                  <img className='illsimg' src={ills} alt="Projects Done" />
+                </div>
             </div>
             <div className="projectright mx-lg-5 mx-0 col-lg-4">
 
             <div className='mx-lg-0 mx-auto'   >
      <p >Explore projects</p>
      <h5 className='mt-2' >See the projects done in<br />Github Respositries</h5>
-     <div className="mt-4"> <Solidbuttondark ids="as" action={animatediv} text="Open projects" /> </div>
+     <div onClick={()=>{  window.location.replace(" https://github.com/taha020 ");  }} className="mt-4"> <Solidbuttondark ids="as" text="Open projects" /> </div>
      </div>
                 
             </div>

@@ -89,7 +89,7 @@ backdrop-filter: blur(8.5px);
     
 
     .Educationarea {
-        height: 2121px;
+        height: 1607px !important;
         padding-top: 15.5%;
     }
 
@@ -100,3 +100,30 @@ backdrop-filter: blur(8.5px);
         font-size: 24px;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    
+.longcardbody1, .longcardbody2, .longcardbody3 {
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(249, 108, 233) 0%, rgb(173, 5, 221) 90%);
+    border-radius: 25px;
+    height: 325px;
+    padding-top: 5%;
+    color: white;
+    width: 72%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.longcardbody2{
+    margin-top: 148px;
+}
+.Educationarea {
+    height: 1644px;
+    padding-top: 23.5%;
+}
+.rightsideeducation p {
+    font-size: 14px;
+}
+  }
+
+ 
